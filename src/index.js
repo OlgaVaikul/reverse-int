@@ -1,6 +1,5 @@
 module.exports = function reverseInt (n) {
-    n = n + "";
-    return Number(String(n).split("").reverse().join(""));
+    return String(Math.abs(n)).split("").reverse().join("");
   }
 
 
