@@ -1,5 +1,6 @@
-module.exports = function reverse (n) {
-    const num = (n) => n.toString().split('').reverse().join('');
-    return num;
-}
+module.exports = function reverseInt (n) {
+    n = n + "";
+    return n.split("").reverse().join("");
+  }
+
 
